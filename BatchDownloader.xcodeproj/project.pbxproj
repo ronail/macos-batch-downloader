@@ -13,6 +13,7 @@
 		72D4F4DD13D2EC30006627B8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 72D4F4DB13D2EC30006627B8 /* Credits.rtf */; };
 		72D4F4E013D2EC30006627B8 /* BatchDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D4F4DF13D2EC30006627B8 /* BatchDownloaderAppDelegate.m */; };
 		72D4F4E313D2EC30006627B8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D4F4E113D2EC30006627B8 /* MainMenu.xib */; };
+		72D4F4EB13D2EC65006627B8 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D4F4EA13D2EC65006627B8 /* Downloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		72D4F4CF13D2EC30006627B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		72D4F4D013D2EC30006627B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		72D4F4D113D2EC30006627B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		72D4F4D413D2EC30006627B8 /* BatchDownloader-Info.plist */ = {isa = PBXFileReference; path = "BatchDownloader-Info.plist"; sourceTree = "<group>"; };
+		72D4F4D413D2EC30006627B8 /* BatchDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatchDownloader-Info.plist"; sourceTree = "<group>"; };
 		72D4F4D613D2EC30006627B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72D4F4D813D2EC30006627B8 /* BatchDownloader-Prefix.pch */ = {isa = PBXFileReference; path = "BatchDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		72D4F4D813D2EC30006627B8 /* BatchDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BatchDownloader-Prefix.pch"; sourceTree = "<group>"; };
 		72D4F4D913D2EC30006627B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72D4F4DC13D2EC30006627B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		72D4F4DE13D2EC30006627B8 /* BatchDownloaderAppDelegate.h */ = {isa = PBXFileReference; path = BatchDownloaderAppDelegate.h; sourceTree = "<group>"; };
+		72D4F4DE13D2EC30006627B8 /* BatchDownloaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatchDownloaderAppDelegate.h; sourceTree = "<group>"; };
 		72D4F4DF13D2EC30006627B8 /* BatchDownloaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatchDownloaderAppDelegate.m; sourceTree = "<group>"; };
 		72D4F4E213D2EC30006627B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		72D4F4E913D2EC65006627B8 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		72D4F4EA13D2EC65006627B8 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				72D4F4DF13D2EC30006627B8 /* BatchDownloaderAppDelegate.m */,
 				72D4F4E113D2EC30006627B8 /* MainMenu.xib */,
 				72D4F4D313D2EC30006627B8 /* Supporting Files */,
+				72D4F4E913D2EC65006627B8 /* Downloader.h */,
+				72D4F4EA13D2EC65006627B8 /* Downloader.m */,
 			);
 			path = BatchDownloader;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				72D4F4DA13D2EC30006627B8 /* main.m in Sources */,
 				72D4F4E013D2EC30006627B8 /* BatchDownloaderAppDelegate.m in Sources */,
+				72D4F4EB13D2EC65006627B8 /* Downloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

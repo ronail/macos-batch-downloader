@@ -7,12 +7,26 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Downloader.h"
 
-@interface BatchDownloaderAppDelegate : NSObject <NSApplicationDelegate> {
+@interface BatchDownloaderAppDelegate : NSObject <NSApplicationDelegate, DownloaderDelegate> {
 @private
     NSWindow *window;
+    NSTextField *urlTextField;
+    NSTextField *startTextField;
+    NSTextField *endTextField;
+    NSProgressIndicator *progressIndicator;
+    NSButton *downloadButton;
+    NSTextField *statusTextField;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, retain) IBOutlet NSTextField *urlTextField;
+@property (nonatomic, retain) IBOutlet NSTextField *startTextField;
+@property (nonatomic, retain) IBOutlet NSTextField *endTextField;
+@property (nonatomic, retain) IBOutlet NSProgressIndicator *progressIndicator;
+@property (nonatomic, retain) IBOutlet NSButton *downloadButton;
+@property (nonatomic, retain) IBOutlet NSTextField *statusTextField;
 
+- (IBAction) beginDownload:(id)sender;
 @end
