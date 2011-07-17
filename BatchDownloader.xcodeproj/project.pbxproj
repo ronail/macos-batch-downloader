@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72D4F4CD13D2EC30006627B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D4F4CC13D2EC30006627B8 /* Cocoa.framework */; };
+		72D4F4D713D2EC30006627B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72D4F4D513D2EC30006627B8 /* InfoPlist.strings */; };
+		72D4F4DA13D2EC30006627B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D4F4D913D2EC30006627B8 /* main.m */; };
+		72D4F4DD13D2EC30006627B8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 72D4F4DB13D2EC30006627B8 /* Credits.rtf */; };
+		72D4F4E013D2EC30006627B8 /* BatchDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D4F4DF13D2EC30006627B8 /* BatchDownloaderAppDelegate.m */; };
+		72D4F4E313D2EC30006627B8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D4F4E113D2EC30006627B8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72D4F4C813D2EC30006627B8 /* BatchDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatchDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D4F4CC13D2EC30006627B8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		72D4F4CF13D2EC30006627B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		72D4F4D013D2EC30006627B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		72D4F4D113D2EC30006627B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72D4F4D413D2EC30006627B8 /* BatchDownloader-Info.plist */ = {isa = PBXFileReference; path = "BatchDownloader-Info.plist"; sourceTree = "<group>"; };
+		72D4F4D613D2EC30006627B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72D4F4D813D2EC30006627B8 /* BatchDownloader-Prefix.pch */ = {isa = PBXFileReference; path = "BatchDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		72D4F4D913D2EC30006627B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72D4F4DC13D2EC30006627B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		72D4F4DE13D2EC30006627B8 /* BatchDownloaderAppDelegate.h */ = {isa = PBXFileReference; path = BatchDownloaderAppDelegate.h; sourceTree = "<group>"; };
+		72D4F4DF13D2EC30006627B8 /* BatchDownloaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatchDownloaderAppDelegate.m; sourceTree = "<group>"; };
+		72D4F4E213D2EC30006627B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D4F4C513D2EC30006627B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D4F4CD13D2EC30006627B8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72D4F4BD13D2EC30006627B8 = {
+			isa = PBXGroup;
+			children = (
+				72D4F4D213D2EC30006627B8 /* BatchDownloader */,
+				72D4F4CB13D2EC30006627B8 /* Frameworks */,
+				72D4F4C913D2EC30006627B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72D4F4C913D2EC30006627B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D4F4C813D2EC30006627B8 /* BatchDownloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D4F4CB13D2EC30006627B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D4F4CC13D2EC30006627B8 /* Cocoa.framework */,
+				72D4F4CE13D2EC30006627B8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72D4F4CE13D2EC30006627B8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D4F4CF13D2EC30006627B8 /* AppKit.framework */,
+				72D4F4D013D2EC30006627B8 /* CoreData.framework */,
+				72D4F4D113D2EC30006627B8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		72D4F4D213D2EC30006627B8 /* BatchDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				72D4F4DE13D2EC30006627B8 /* BatchDownloaderAppDelegate.h */,
+				72D4F4DF13D2EC30006627B8 /* BatchDownloaderAppDelegate.m */,
+				72D4F4E113D2EC30006627B8 /* MainMenu.xib */,
+				72D4F4D313D2EC30006627B8 /* Supporting Files */,
+			);
+			path = BatchDownloader;
+			sourceTree = "<group>";
+		};
+		72D4F4D313D2EC30006627B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72D4F4D413D2EC30006627B8 /* BatchDownloader-Info.plist */,
+				72D4F4D513D2EC30006627B8 /* InfoPlist.strings */,
+				72D4F4D813D2EC30006627B8 /* BatchDownloader-Prefix.pch */,
+				72D4F4D913D2EC30006627B8 /* main.m */,
+				72D4F4DB13D2EC30006627B8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D4F4C713D2EC30006627B8 /* BatchDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D4F4E613D2EC30006627B8 /* Build configuration list for PBXNativeTarget "BatchDownloader" */;
+			buildPhases = (
+				72D4F4C413D2EC30006627B8 /* Sources */,
+				72D4F4C513D2EC30006627B8 /* Frameworks */,
+				72D4F4C613D2EC30006627B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatchDownloader;
+			productName = BatchDownloader;
+			productReference = 72D4F4C813D2EC30006627B8 /* BatchDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D4F4BF13D2EC30006627B8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 72D4F4C213D2EC30006627B8 /* Build configuration list for PBXProject "BatchDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72D4F4BD13D2EC30006627B8;
+			productRefGroup = 72D4F4C913D2EC30006627B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D4F4C713D2EC30006627B8 /* BatchDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D4F4C613D2EC30006627B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D4F4D713D2EC30006627B8 /* InfoPlist.strings in Resources */,
+				72D4F4DD13D2EC30006627B8 /* Credits.rtf in Resources */,
+				72D4F4E313D2EC30006627B8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D4F4C413D2EC30006627B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D4F4DA13D2EC30006627B8 /* main.m in Sources */,
+				72D4F4E013D2EC30006627B8 /* BatchDownloaderAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72D4F4D513D2EC30006627B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D4F4D613D2EC30006627B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72D4F4DB13D2EC30006627B8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D4F4DC13D2EC30006627B8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		72D4F4E113D2EC30006627B8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D4F4E213D2EC30006627B8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72D4F4E413D2EC30006627B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		72D4F4E513D2EC30006627B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		72D4F4E713D2EC30006627B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatchDownloader/BatchDownloader-Prefix.pch";
+				INFOPLIST_FILE = "BatchDownloader/BatchDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72D4F4E813D2EC30006627B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatchDownloader/BatchDownloader-Prefix.pch";
+				INFOPLIST_FILE = "BatchDownloader/BatchDownloader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D4F4C213D2EC30006627B8 /* Build configuration list for PBXProject "BatchDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D4F4E413D2EC30006627B8 /* Debug */,
+				72D4F4E513D2EC30006627B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D4F4E613D2EC30006627B8 /* Build configuration list for PBXNativeTarget "BatchDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D4F4E713D2EC30006627B8 /* Debug */,
+				72D4F4E813D2EC30006627B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72D4F4BF13D2EC30006627B8 /* Project object */;
+}
