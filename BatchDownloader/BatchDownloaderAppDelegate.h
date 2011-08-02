@@ -18,6 +18,7 @@
     NSProgressIndicator *progressIndicator;
     NSButton *downloadButton;
     NSTextField *statusTextField;
+    NSTextField *saveNameTextField;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -27,6 +28,7 @@
 @property (nonatomic, retain) IBOutlet NSProgressIndicator *progressIndicator;
 @property (nonatomic, retain) IBOutlet NSButton *downloadButton;
 @property (nonatomic, retain) IBOutlet NSTextField *statusTextField;
+@property (nonatomic, retain) IBOutlet NSTextField *saveNameTextField;
 
 - (IBAction) beginDownload:(id)sender;
 @end

@@ -15,6 +15,7 @@
 @synthesize urlTextField;
 @synthesize statusTextField;
 @synthesize downloadButton;
+@synthesize saveNameTextField;
 @synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
